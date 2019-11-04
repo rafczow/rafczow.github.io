@@ -1,1 +1,1 @@
-[https://rafczow.github.io](rafczow.github.io)
+[rafczow.github.io](https://rafczow.github.io)
