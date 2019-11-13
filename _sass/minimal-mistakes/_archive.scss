@@ -1,0 +1,71 @@
+/* ==========================================================================
+   ARCHIVE
+   ========================================================================== */
+
+   .archive {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  
+    @include breakpoint($large) {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+  
+    @include breakpoint($x-large) {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+
+  .sidebar {
+    + .archive {
+      margin-top: 1em;
+      margin-bottom: 2em;
+    
+      @include breakpoint($large) {
+        float: right;
+        width: calc(100% - #{$right-sidebar-width-narrow});
+        padding-right: $right-sidebar-width-narrow;
+      }
+    
+      @include breakpoint($x-large) {
+        width: calc(100% - #{$right-sidebar-width});
+        padding-right: $right-sidebar-width;
+      }
+    }
+  }
+  
+  /*
+     Grid view
+     ========================================================================== */
+  
+  .archive {
+    .grid__wrapper {
+      /* extend grid elements to the right */
+
+      @include breakpoint($large) {
+        margin-right: 0;
+      }
+  
+      @include breakpoint($x-large) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .sidebar {
+    + .archive {
+      .grid__wrapper {
+        /* extend grid elements to the right */
+    
+        @include breakpoint($large) {
+          margin-right: -1 * $right-sidebar-width-narrow;
+        }
+    
+        @include breakpoint($x-large) {
+          margin-right: -1 * $right-sidebar-width;
+        }
+      }
+    }
+  }
