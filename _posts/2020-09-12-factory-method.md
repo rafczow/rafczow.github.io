@@ -1,8 +1,8 @@
 ---
-title: "Design patterns: Factory Method"
+title: "Factory Method"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Design patterns
 tags:
   - design patterns
   - creational design patterns

@@ -1,5 +1,5 @@
 ---
-title: "Design patterns: Prototype"
+title: "Prototype"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog

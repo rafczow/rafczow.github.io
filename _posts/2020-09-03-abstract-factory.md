@@ -1,10 +1,10 @@
 ---
-title: "Design patterns: Abstract Factory"
+title: "Abstract Factory"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Design patterns
 tags:
-  - designs patterns
+  - design patterns
   - creational design patterns
 ---
 
