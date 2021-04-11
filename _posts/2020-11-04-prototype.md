@@ -4,8 +4,8 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - design pattern
-  - creational pattern
+  - designs pattern
+  - creational design patterns
 ---
 
 1

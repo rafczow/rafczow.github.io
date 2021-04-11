@@ -4,8 +4,8 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - design patterns
-  - creational pattern
+  - designs pattern
+  - creational design patterns
 ---
 
 Wzorzec kreacyjny który dostarcza interfejs do tworzenia obiektów w wykorzystującej je klasie, jednocześnie z użyciem dziedziczenia pozwala zmienić konkretny typ obiektu który zostanie stworzony.
