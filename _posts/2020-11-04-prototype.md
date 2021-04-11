@@ -2,7 +2,7 @@
 title: "Prototype"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Design patterns
 tags:
   - design patterns
   - creational design patterns
