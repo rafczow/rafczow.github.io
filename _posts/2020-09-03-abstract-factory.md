@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - design patterns
+  - creational pattern
 ---
 
 Wzorzec kreacyjny pozwalający na tworzenie różnych wariantów wybranego abstrakcyjego obiektu lub obiektów. Obiekty wychodzące od tej samej abstrakcji różnią się na poziomie konkretnych klas ale mogą ze sobą współpracować, realizują podobne zadania i są powiązane na wysokim poziomie koncepcyjnym.
