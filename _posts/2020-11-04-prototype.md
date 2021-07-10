@@ -27,7 +27,7 @@ Zalety i wady:
   + Dobre alternatywa do dziedziczenia gdy masz doczyniena z różnymi konfiguracjami skomplikowanych obiektów
   - Tworzenie kopii bardzo skomplikowanych obiektów z wieloma referencjami wciąż będzie wymagało dodatkowej uwagii
 
-Przykładowy kod: 
+Przykładowy kod: https://github.com/rafczow/php-patterns-practice/tree/master/src/Prototype
 
 Powiązane wzorce:
  Abstract Factory
