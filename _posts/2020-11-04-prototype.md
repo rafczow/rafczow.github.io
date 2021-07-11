@@ -4,7 +4,6 @@ excerpt_separator: "<!--more-->"
 categories:
   - Design patterns
 tags:
-  - design patterns
   - creational design patterns
 ---
 
@@ -27,7 +26,7 @@ Zalety i wady:
   + Dobre alternatywa do dziedziczenia gdy masz doczyniena z różnymi konfiguracjami skomplikowanych obiektów
   - Tworzenie kopii bardzo skomplikowanych obiektów z wieloma referencjami wciąż będzie wymagało dodatkowej uwagii
 
-Przykładowy kod: https://github.com/rafczow/php-patterns-practice/tree/master/src/Prototype
+Przykładowy kod: 
 
 Powiązane wzorce:
  Abstract Factory

@@ -4,7 +4,6 @@ excerpt_separator: "<!--more-->"
 categories:
   - Design patterns
 tags:
-  - design patterns
   - creational design patterns
 ---
 
