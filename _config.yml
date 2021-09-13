@@ -60,8 +60,8 @@ plugins:
   - jekyll-include-cache
 author:
   name   : "Rafał Czownicki"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/photo.jpg"
+  bio    : "Full stack experience in web apps development. 💻 🏁 🎮 🚵‍♂️"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
