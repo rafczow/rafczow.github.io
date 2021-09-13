@@ -1,10 +1,11 @@
 [rafczow.github.io](https://rafczow.github.io)
 
+Repository of my personal webpage hosted with github pages.
 
-## Troubleshooting
+Currently im using posts more like a notebook or flashcards for things im learning.
+In future I want to publish content that will be more interesting for other devs here.
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+Powered by [Jekyll][1] with [Minimal Mistakes theme.][2]
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+[1]:https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
+[2]:https://jekyllrb.com
