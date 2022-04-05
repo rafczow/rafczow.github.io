@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
-    url: /
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "PageSpeed Optimization"
+    url: /pagespeed/
+  - title: "Web dev"
+    url: /web-development/
   - title: "About"
     url: /about/

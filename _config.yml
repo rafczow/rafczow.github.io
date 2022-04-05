@@ -13,21 +13,45 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WebRC - professional devblog;
+title: WebRC - professional blog;
+subtitle: "@alpha"
+locale: "en"
 email: rafczow@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   professional devblog;
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github: [metadata]
-twitter_username: rafczow
-github_username: rafczow
-minimal_mistakes_skin: dark
+url: "https://webrc.pl" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-9YMEL9RGML"
+    anonymize_ip: false # default
+
+og_image: /assets/images/site-logo.png
+
+social:
+  type:  Person
+  name:  WebRC
+  links:
+    - "https://twitter.com/webRCpl"
+    - "https://www.linkedin.com/in/rafa%C5%82-czownicki-378990101/"
+    - "https://github.com/rafczow"
+
+# Enable features
 search: true
+breadcrumbs: true
 
 # Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: mint
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.17.2"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environments
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -51,39 +75,45 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+name: "Rafał Czownicki"
+github: [metadata]
+twitter_username: webRCpl
+github_username: rafczow
+twitter:
+  username: "webRCpl"
 author:
   name   : "Rafał Czownicki"
   avatar : "/assets/images/photo.jpg"
   bio    : "Full stack experience in web apps development. 💻 🏁 🎮 🚵‍♂️"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rafa%C5%82-czownicki-378990101/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rafczow"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/webRCpl"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rafa%C5%82-czownicki-378990101/"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rafa%C5%82-czownicki-378990101/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rafczow"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/webRCpl"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rafa%C5%82-czownicki-378990101/"
 
 defaults:
   # _posts
@@ -92,7 +122,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
